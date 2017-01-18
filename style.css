@@ -1,0 +1,113 @@
+/*//////////////////////////
+// BIKES WEBSITE CSS
+// THE NET NINJA
+//////////////////////////*/
+
+body {
+    font-family: monospace;
+    font-size: 16px;
+    margin: 0;
+    background-color: #eee;
+}
+
+#wrapper {
+    width: 988px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+#main-navigation {
+    padding: 10px;
+    background: #ffc578;
+    background: -moz-linear-gradient(left, #ffc578 0%, #fb9d23 100%);
+    background: -webkit-linear-gradient(left, #ffc578 0%, #fb9d23 100%);
+    background: linear-gradient(to right, #ffc578 0%, #fb9d23 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffc578', endColorstr='#fb9d23', GradientType=1);
+}
+
+#main-navigation ul {
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#main-navigation li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#main-navigation a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px;
+    color: black;
+    background: #fceabb;
+    background: -moz-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    background: -webkit-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    background: linear-gradient(to bottom, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=0);
+    -webkit-box-shadow: 7px 7px 68px 18px rgba(227, 190, 7, 1);
+    -moz-box-shadow: 7px 7px 68px 18px rgba(227, 190, 7, 1);
+    box-shadow: 7px 7px 68px 18px rgba(227, 190, 7, 1);
+}
+
+#main-navigation a.current {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#main-navigation a:hover {
+    background: #fceabb;
+    background: -moz-linear-gradient(bottom, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    background: -webkit-linear-gradient(bottom, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    background: linear-gradient(to top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=0);
+}
+
+#lead-banner img {
+    width: 100%;
+    height: 450px;
+}
+
+#shop {
+    margin: 30px 0;
+    text-align: center;
+}
+
+#shop h2.product-name {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#shop span.price {
+    display: block;
+    font-size: 64px;
+}
+
+#shop a.add-to-bag {
+    display: block;
+    padding: 10px 0;
+    border: 1px solid orange;
+    width: 207px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 20px auto;
+    background: #fceabb;
+    background: -moz-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    background: -webkit-linear-gradient(top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    background: linear-gradient(to bottom, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=0);
+}
+
+#shop a.add-to-bag:hover {
+    background: #fceabb;
+    background: -moz-linear-gradient(bottom, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    background: -webkit-linear-gradient(bottom, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    background: linear-gradient(to top, #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=0);
+}
+
+#footer-banner img {
+    width: 100%;
+}
